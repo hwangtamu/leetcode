@@ -10,7 +10,6 @@ class Solution
 public:
 	vector<int> twoSum(vector<int> &numbers, int target)
 	{
-		vector<int> sum(numbers.size(),0);
 		vector<int> ans(2,0);
 		for(int i=0;i<numbers.size();++i)
 		{
