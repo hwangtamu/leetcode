@@ -16,6 +16,6 @@ public:
 			    valid[s[i]] = i;
 		    }
 	    }
-		return ans<s.size()-cursor?s.size()-cursor:ans;
+        return ans<s.size()-cursor?s.size()-cursor:ans;
     }
 };
