@@ -1,5 +1,5 @@
 public class Solution {
-    public static String intToRoman(int num) {
+    public String intToRoman(int num) {
         // Start typing your Java solution below
         // DO NOT write main() function
 
@@ -33,9 +33,5 @@ public class Solution {
         while (ind<RomanChar.length);
         return Roman;
 
-    }
-    public static void main(String[] args) {
-        int num=4;
-        System.out.println(intToRoman(num));
     }
 }
