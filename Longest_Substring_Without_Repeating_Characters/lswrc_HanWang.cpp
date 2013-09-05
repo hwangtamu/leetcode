@@ -12,7 +12,7 @@ public:
 			}
 		    else{
 			    ans<i-cursor?ans = i-cursor:ans=ans;
-          cursor = cursor>valid[s[i]]?cursor:valid[s[i]]+1;
+                            cursor = cursor>valid[s[i]]?cursor:valid[s[i]]+1;
 			    valid[s[i]] = i;
 		    }
 	    }
