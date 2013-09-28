@@ -31,8 +31,6 @@ public:
 	    string ans;
 	    for(int i = num1.size()+num2.size();i>0;i--)
 		    ans.push_back((char)(arr[i-1]+'0'));
-	    if(ans == "0")
-		    return ans;
 	    while(ans.front() == '0')
 		    ans.erase(ans.begin());
 	    return ans;
